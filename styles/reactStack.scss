@@ -1,0 +1,19 @@
+body {
+    background: #f1f1f1;
+  }
+  
+  .skills {
+    h3 {
+      color: darkblue;
+    }
+    ol {
+      margin-left: -20px;
+      li {
+        font-size: 20px;
+        color: rgba(0, 0, 0, .7);
+        &:first-child {
+          color: #4b8bf5;
+        }
+      }
+    }
+  }
